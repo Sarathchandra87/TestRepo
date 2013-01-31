@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851EEF4216BB1E6100A0E303 /* Facebook_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EEF3F16BB1E6100A0E303 /* Facebook_icon.png */; };
+		851EEF4316BB1E6100A0E303 /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EEF4016BB1E6100A0E303 /* linkedin.png */; };
+		851EEF4416BB1E6100A0E303 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 851EEF4116BB1E6100A0E303 /* twitter.png */; };
 		856299F516BB14CF0041895B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856299F416BB14CF0041895B /* UIKit.framework */; };
 		856299F716BB14CF0041895B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856299F616BB14CF0041895B /* Foundation.framework */; };
 		856299F916BB14CF0041895B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856299F816BB14CF0041895B /* CoreGraphics.framework */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851EEF3F16BB1E6100A0E303 /* Facebook_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook_icon.png; sourceTree = "<group>"; };
+		851EEF4016BB1E6100A0E303 /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.png; sourceTree = "<group>"; };
+		851EEF4116BB1E6100A0E303 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		856299F116BB14CE0041895B /* MySourceControlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySourceControlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856299F416BB14CF0041895B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		856299F616BB14CF0041895B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,10 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		851EEF4516BB1E7100A0E303 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				851EEF3F16BB1E6100A0E303 /* Facebook_icon.png */,
+				851EEF4016BB1E6100A0E303 /* linkedin.png */,
+				851EEF4116BB1E6100A0E303 /* twitter.png */,
+			);
+			name = pics;
+			path = MySourceControlApp;
+			sourceTree = "<group>";
+		};
 		856299E816BB14CE0041895B = {
 			isa = PBXGroup;
 			children = (
 				856299FA16BB14CF0041895B /* MySourceControlApp */,
+				851EEF4516BB1E7100A0E303 /* pics */,
 				856299F316BB14CF0041895B /* Frameworks */,
 				856299F216BB14CE0041895B /* Products */,
 			);
@@ -154,6 +172,9 @@
 				85629A0716BB14CF0041895B /* Default.png in Resources */,
 				85629A0916BB14CF0041895B /* Default@2x.png in Resources */,
 				85629A0B16BB14CF0041895B /* Default-568h@2x.png in Resources */,
+				851EEF4216BB1E6100A0E303 /* Facebook_icon.png in Resources */,
+				851EEF4316BB1E6100A0E303 /* linkedin.png in Resources */,
+				851EEF4416BB1E6100A0E303 /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +299,7 @@
 				85629A1016BB14CF0041895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
